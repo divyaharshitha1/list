@@ -1,0 +1,54 @@
+.responsive-container {
+  text-align: center;
+  padding: 20px;
+  background-image: url("https://www.pcworld.com/wp-content/uploads/2023/04/windows-10-logo-onscreen-100809733-orig-3.jpg?quality=50&strip=all&w=1024");
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+input[type="search"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.employee-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.employee-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.employee-list img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.name-heading {
+  font-size: 18px;
+  font-weight: 700;
+}
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.email-heading {
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 70px;
+}
